@@ -1,20 +1,6 @@
-# rm-fetch-async-test
+# Reproduction
 
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+1. Install deps via `yarn`
+2. Launch the application in dev mode via `yarn dev`
+3. Go to http://localhost:3000/async and http://localhost:3000/fetch in new tabs
+4. See that the TTFB is roughly a magnitude different
